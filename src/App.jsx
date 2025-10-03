@@ -1,17 +1,18 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import PokeHeader from './header'
 import PokeFooter from './header'
 
 function App() {
-  // const [count, setCount] = useState(0)
+
+  const creador = "Isaac Ramírez"
+  const sitioWeb = ""
+  const titulo = "Pokedex con PokeAPI"
 
   return (
     <>
-      <PokeHeader titulo={"Pokedex"} />
-      <PokeFooter sitio={"Hola"} autor={"Isaac"}/>
+      <PokeHeader titulo={titulo} />
+      <h1></h1>
+      <PokeFooter sitio={sitioWeb} autor={creador}/>
     </>
   )
 }
