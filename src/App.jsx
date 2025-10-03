@@ -2,14 +2,16 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './header'
+import PokeHeader from './header'
+import PokeFooter from './header'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header titulo={"Pokedex"} />
+      <PokeHeader titulo={"Pokedex"} />
+      <PokeFooter sitio={"Hola"} autor={"Isaac"}/>
     </>
   )
 }
