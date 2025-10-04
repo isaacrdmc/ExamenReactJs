@@ -18,7 +18,7 @@ export default function PokeCard(pokemon) {
             <div className="card-Body">
                 <h4 className="card-title">{pokemon.nombre}</h4>
                 <br />
-                <h4 className="card-title">{pokemon.peso}</h4>
+                <h4 className="card-title">{pokemon.descript}</h4>
             </div>
         </div>
     );
