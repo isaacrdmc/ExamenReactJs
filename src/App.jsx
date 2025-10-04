@@ -2,19 +2,19 @@ import './App.css'
 import PokeCard from './card'
 import PokeHeader from './header'
 import PokeFooter from './header'
+import PokeBody from './body'
 
 function App() {
-  
-  // const sitioWeb = "https://pokeapi.co/"
+
+  const titulo = "Pokedex con PokeAPI"
 
   const creador = "Isaac Ramírez"
   const sitioWeb = "https://www.thecocktaildb.com/"
-  const titulo = "Pokedex con PokeAPI"
 
   return (
     <>
       <PokeHeader titulo={titulo} />
-      <PokeCard />
+      <PokeBody />
       <h1></h1>
       <PokeFooter sitio={sitioWeb} autor={creador}/>
     </>
