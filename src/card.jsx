@@ -1,17 +1,17 @@
 
 
-import { Card, Image } from 'react-bootstrap';
+// import { Image } from 'react-bootstrap';
 
 
 export default function PokeCard(pokemon) {
     return (
         <div className="card mi-card m-2">
             {/* Seccion de la imágen: */}
-            <Image
+            {/* <Image
                 src={pokemon.sprites?.front_default}
                 className="card-img-top"
                 alt={pokemon.name}
-            />
+            /> */}
 
 
             {/* Sección del contenido: */}
