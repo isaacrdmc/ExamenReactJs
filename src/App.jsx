@@ -15,7 +15,6 @@ function App() {
     <>
       <PokeHeader titulo={titulo} />
       <PokeBody />
-      <h1></h1>
       <PokeFooter sitio={sitioWeb} autor={creador}/>
     </>
   )
