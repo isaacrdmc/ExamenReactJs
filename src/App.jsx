@@ -1,8 +1,8 @@
 import './App.css'
 import PokeCard from './card'
 import PokeHeader from './header'
-import PokeFooter from './header'
 import PokeBody from './body'
+import PokeFooter from './fotter'
 
 function App() {
 
@@ -16,6 +16,7 @@ function App() {
       <PokeHeader titulo={titulo} />
       <PokeBody />
       <PokeFooter sitio={sitioWeb} autor={creador}/>
+      {/* <PokeFooter /> */}
     </>
   )
 }

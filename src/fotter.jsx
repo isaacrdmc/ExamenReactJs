@@ -2,12 +2,11 @@
 
 
 // ^ AHora vamos a crear un footer para la web:
-export default function PokeFooter(sitio, autor) {
+export default function PokeFooter({sitio, autor}) {
     return (
         <>
         <h1>Footer</h1>
         <footer>
-            <h1>Hola mundo</h1>
             <ul>El sitio fue creado por {autor}</ul>
             <ul>El recurso oficl para el elavorar el sitio web es de {sitio}</ul>
             

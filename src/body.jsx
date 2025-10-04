@@ -9,14 +9,13 @@ export default function PokeBody() {
     const [pokemonBuscar, setPokemonBuscar] = useState("");
 
     //   ? Creamos una constante para realizar la peticion:
-    const buscarPokemon = async (e) => {
-        e.preventDefault();
+    const buscarPokemon = async () => {
         if (!pokemonBuscar) return;
 
         try {
 
             // Realizamso la peticion:
-            const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonBuscar.toLowerCase()}`);
+            const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonBuscar}`);
 
             // Analizamos la respuesta por si no es correcta:
             if (!res.ok) throw new Error("No encontrado");
@@ -36,10 +35,14 @@ export default function PokeBody() {
     };
 
 
+
+
+
+
     //   ? Retornamos la tarjeta:
     return (
         <div className="container mt-5 text-center">
-            <h1 className="fw-bold mb-4">Busca tu Pokémon</h1>
+            <h3 className="fw-bold mb-4">Hzte con todos!</h3>
 
 
             {/* // * Creamso un formualrio para buscar el pokmeon */}
